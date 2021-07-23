@@ -1,2 +1,6 @@
 * CSS can natively handle variables
 --color-primary
+
+* flex shorthand: flex-grow, flex-shrink, width percentage
+* flex: 0 0 18% means we don't want it to grow or shrink depending on room available but stay at 18%
+* Use svg's for icons
