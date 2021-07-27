@@ -37,6 +37,9 @@ Grey dark 3: #999
 *::after {
   box-sizing: inherit; }
 
+li {
+  list-style: none; }
+
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
@@ -73,11 +76,28 @@ body {
 
 .sidebar {
   background-color: var(--color-grey-dark-1);
-  flex: 0 0 18%; }
+  flex: 0 0 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
 
 .hotel-view {
   flex: 1;
-  background-color: red; }
+  background-color: #fff;
+  height: 80rem; }
+
+.parent {
+  height: 400px;
+  display: flex;
+  align-items: flex-start;
+  width: 100%; }
+  .parent .child {
+    width: 200px;
+    background-color: white;
+    color: black; }
+  .parent .three {
+    align-self: stretch;
+    justify-self: self-end; }
 
 .logo {
   height: 3.25rem;
@@ -150,3 +170,16 @@ body {
   .user-nav__user-photo {
     height: 3.75rem;
     border-radius: 50%; }
+  .user-nav__user-name {
+    margin-left: 1rem; }
+
+.side-nav {
+  font-size: 1.4rem;
+  margin-top: 3.5rem; }
+  .side-nav__link:link, .side-nav__link:visited {
+    color: var(--color-grey-light-1);
+    text-decoration: none;
+    text-transform: none;
+    display: block; }
+  .side-nav__icon {
+    width: 1.75rem; }

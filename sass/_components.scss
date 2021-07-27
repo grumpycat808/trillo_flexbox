@@ -100,7 +100,31 @@
     }
 
     &__user-name {
+        margin-left: 1rem;
+    }
+
+}
+
+//SIDE NAVIGATION
+.side-nav {
+
+    font-size: 1.4rem;
+    margin-top: 3.5rem;
+
+    &__item {
+
+    }
+
+    &__link:link, 
+    &__link:visited {
+        color: var(--color-grey-light-1);
+        text-decoration: none;
+        text-transform: none;
+        display: block;
         
     }
 
+    &__icon {
+        width: 1.75rem;
+    }
 }

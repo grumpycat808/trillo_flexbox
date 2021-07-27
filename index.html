@@ -14,7 +14,7 @@
         Trillo
         <div class="container">
             <header class="header">
-                <img src="img/logo.png" alt="trillo logo">
+                <img src="img/logo.png" alt="trillo logo" class="logo">
                 <form class="search">
                     <input type="text" class="search__input" placeholder="Search hotels">
                     <button class="search__button">
@@ -37,9 +37,36 @@
                 </nav>
             </header>
             <div class="content">
-                <nav class="sidebar">Nav</nav>
+                <nav class="sidebar">
+                    <ul class="side-nav">
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link"><img class="side-nav__icon" src="./img/home.png"/></a>
+                            <span>Home</span>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link"><img class="side-nav__icon" src="./img/plane.png"/></a>
+                            <span>Flight</span>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link"><img class="side-nav__icon" src="./img/key.png"/></a>
+                            <span>Car Rentals</span>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link"><img class="side-nav__icon" src="./img/maps-and-flags.png"/></a>
+                            <span>Tours</span>
+                        </li>
+                    </ul>
+                    <div>
+                        <p>Legal text</p>
+                    </div>
+                </nav>
                 <main class="hotel-view">
-                    Main Hotel View
+                    
+                    <div class="parent">
+                        <div style="background-color: blue;" class="child one">One</div>
+                        <div style="background-color: green;" class="child two">Two</div>
+                        <div style="background-color: yellow;" class="child three">Three</div>
+                    </div>
                 </main>
             </div>
         </div>

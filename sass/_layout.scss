@@ -24,9 +24,31 @@
 .sidebar {
     background-color: var(--color-grey-dark-1);
     flex: 0 0 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hotel-view {
     flex: 1;
-    background-color: red;
+    background-color: #fff;
+    height: 80rem;
+}
+
+.parent {
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    .child {
+        width: 200px;
+        background-color: white;
+        color: black;
+    }
+
+    .three {
+        align-self: stretch;
+        justify-self: self-end;
+    }
+
 }
